@@ -1,9 +1,10 @@
 //addition part
 //only input and sepration
 // store in array
+//format o/p in correct way
 import java.io.*;
 
-class newaddtest3
+class newaddtest4
 {
 	public static void main(String args[]) throws IOException
 	{
@@ -71,7 +72,6 @@ class newaddtest3
 		}
 		else
 		{
-			
 			greater=S2.length();
 		}
 		if(a3[99-greater]!=0)
@@ -104,16 +104,33 @@ class newaddtest3
 			b3[j]=a3[i];
 			j++;
 		}
+		//System.out.println("diff : "+(s3-S1.length()));
+		for(i=1;i<=s3-S1.length()+1;i++)
+			{
+				System.out.print(" ");
+			}
 		for(i=0;i<S1.length();i++)
 		{
+			
 			System.out.print(b1[i]); //b1
 		}
 		System.out.println();
-		for(i=0;i<S2.length();i++)
+		for(i=1;i<=s3-S2.length();i++)
 		{
+			System.out.print(" ");
+		}
+		System.out.print("+");
+		for(i=0;i<S2.length();i++)
+		{			
 			System.out.print(b2[i]); //b2
 		}
 		System.out.println();
+		for(i=1;i<=s3+1;i++)
+		{
+			System.out.print("-");
+		}
+		System.out.println();
+		System.out.print(" ");
 		for(i=0;i<s3;i++)
 		{
 			System.out.print(b3[i]); //b3

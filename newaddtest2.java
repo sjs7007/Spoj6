@@ -46,11 +46,11 @@ class newaddtest2
 			int temp2 = a1[i]+a2[i];
 			if(temp2<=9)
 			{
-				a3[i]=temp2;
+				a3[i]=temp2+a3[i];
 			}
 			else
 			{
-				a3[i]=temp2%10;
+				a3[i]=(temp2%10)+a3[i];
 				a3[i-1]=a3[i-1]+((temp2-temp2%10)/10);
 			}	
 		}
@@ -58,6 +58,5 @@ class newaddtest2
 		{
 			System.out.print(a3[i]);
 		}
-		
 	}
 }

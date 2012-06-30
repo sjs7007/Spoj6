@@ -73,7 +73,7 @@ class newaddtest3
 		{
 			greater=S2.length();
 		}
-		if(a3[99-greater-1]!=0)
+		if(a3[99-greater]!=0)
 		{
 			s3=greater+1;
 		}

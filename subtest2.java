@@ -1,7 +1,7 @@
 //subtracion part
 //only input and sepration
 // store in array
-//currently works with only 1 carry over
+//works for all
 import java.io.*;
 
 class subtest2

@@ -135,6 +135,5 @@ class newaddtest4
 		{
 			System.out.print(b3[i]); //b3
 		}
-
 	}
 }

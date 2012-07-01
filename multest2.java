@@ -46,17 +46,17 @@ class multest2
 		 * write multiplication code here
 		 */
 		int temp3=0;
-		for(i=99;i>=99-S1.length();i--)
+		for(i=99;i>99-S1.length();i--) //change here
 		{
 			int temp2=a1[i]*a2[99]+temp3;
-			if (temp2<10)
-			{
+			if (temp2<10 || i==99-S1.length()+1) //change made here so that if last result is >=10
+			{										//it should be written directly
 				a3[i]=temp2;
 			}
 			else
 			{
 				a3[i]=temp2%10;
-				temp3=((temp2-temp2%10)/10)+a3[i-1];
+				temp3=((temp2-temp2%10)/10);//unneccessary+a3[i-1];
 			}
 		}
 		for(i=0;i<100;i++)

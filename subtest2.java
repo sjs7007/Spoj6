@@ -52,7 +52,7 @@ class subtest2
 			}
 			else
 			{
-				for(j=99-1;j>=0;j--)
+				for(j=i-1;j>=0;j--)
 				{
 					if(a1[j]>=1)
 					{

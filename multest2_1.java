@@ -20,7 +20,7 @@ class multest2_1
 			else
 			{
 				a3[i]=temp2%10;
-				temp3=((temp2-temp2%10)/10)+a3[i-1];
+				temp3=((temp2-temp2%10)/10);
 			}
 		}
 	}

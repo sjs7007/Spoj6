@@ -49,6 +49,7 @@ class multest2
 		for(i=99;i>99-S1.length();i--) //change here
 		{
 			int temp2=a1[i]*a2[99]+temp3;
+			temp3=0; //addition to correct code since it was not being set to zero it was causing errors
 			if (temp2<10 || i==99-S1.length()+1) //change made here so that if last result is >=10
 			{										//it should be written directly
 				a3[i]=temp2;

@@ -6,4 +6,4 @@ For subtraction : subtest4
 
 For multiplication : multest5
 
-Now all these programs are independent on their own with each having their input. Modify each program to work as a function , remove the input part and add it to the main program which will depending on the arithmetic operator passed pass the values to corresponding function.
+Now all these programs are independent on their own with each having their input. Modify each program to work as a function , remove the input part and add it to the main program which will depending on the arithmetic operator passed pass control to that function.
